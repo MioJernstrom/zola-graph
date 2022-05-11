@@ -100,8 +100,8 @@ var options = {
 		},
 		repulsion: {
 		  centralGravity: 0,
-		  springLength: 2000,
-		  springConstant: 100,
+		  springLength: 20000,
+		  springConstant: 10000,
 		  nodeDistance: 1000,
 		  damping: 0.09
 		},
