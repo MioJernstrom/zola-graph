@@ -102,14 +102,14 @@ var options = {
 		  centralGravity: 0.2,
 		  springLength: 200,
 		  springConstant: 0.05,
-		  nodeDistance: 100,
+		  nodeDistance: 1000,
 		  damping: 0.09
 		},
 		hierarchicalRepulsion: {
 		  centralGravity: 0.0,
 		  springLength: 100,
 		  springConstant: 0.01,
-		  nodeDistance: 120,
+		  nodeDistance: 1200,
 		  damping: 0.09,
 		  avoidOverlap: 0
 		},
