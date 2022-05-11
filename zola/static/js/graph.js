@@ -83,7 +83,7 @@ var options = {
 		improvedLayout:true,
 		clusterThreshold: 150,
 		hierarchical: {
-		  enabled:false,
+		  enabled:true,
 		  levelSeparation: 150,
 		  nodeSpacing: 1000,
 		  treeSpacing: 500,
