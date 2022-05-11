@@ -99,9 +99,9 @@ var options = {
 		  avoidOverlap: 1000
 		},
 		repulsion: {
-		  centralGravity: 0.2,
+		  centralGravity: 0,
 		  springLength: 2000,
-		  springConstant: 0.05,
+		  springConstant: 100,
 		  nodeDistance: 1000,
 		  damping: 0.09
 		},
