@@ -84,7 +84,7 @@ var options = {
 		  theta: 0.5,
 		  gravitationalConstant: -2000,
 		  centralGravity: 0.3,
-		  springLength: 95,
+		  springLength: 950,
 		  springConstant: 0.04,
 		  damping: 0.09,
 		  avoidOverlap: 0
@@ -94,20 +94,20 @@ var options = {
 		  gravitationalConstant: -50,
 		  centralGravity: 0.01,
 		  springConstant: 0.08,
-		  springLength: 100,
+		  springLength: 1000,
 		  damping: 0.4,
 		  avoidOverlap: 0
 		},
 		repulsion: {
 		  centralGravity: 0.2,
-		  springLength: 200,
+		  springLength: 2000,
 		  springConstant: 0.05,
 		  nodeDistance: 1000,
 		  damping: 0.09
 		},
 		hierarchicalRepulsion: {
 		  centralGravity: 0.0,
-		  springLength: 100,
+		  springLength: 1000,
 		  springConstant: 0.01,
 		  nodeDistance: 1200,
 		  damping: 0.09,
