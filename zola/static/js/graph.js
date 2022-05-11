@@ -87,7 +87,7 @@ var options = {
 		  springLength: 950,
 		  springConstant: 0.04,
 		  damping: 0.09,
-		  avoidOverlap: 0
+		  avoidOverlap: 1000
 		},
 		forceAtlas2Based: {
 		  theta: 0.5,
@@ -96,7 +96,7 @@ var options = {
 		  springConstant: 0.08,
 		  springLength: 1000,
 		  damping: 0.4,
-		  avoidOverlap: 0
+		  avoidOverlap: 1000
 		},
 		repulsion: {
 		  centralGravity: 0.2,
@@ -111,11 +111,11 @@ var options = {
 		  springConstant: 0.01,
 		  nodeDistance: 1200,
 		  damping: 0.09,
-		  avoidOverlap: 0
+		  avoidOverlap: 1000
 		},
 		maxVelocity: 50,
 		minVelocity: 0.1,
-		solver: 'barnesHut',
+		solver: 'repulsion',
 		stabilization: {
 		  enabled: true,
 		  iterations: 1000,
