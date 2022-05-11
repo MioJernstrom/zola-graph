@@ -85,8 +85,8 @@ var options = {
 		hierarchical: {
 		  enabled:false,
 		  levelSeparation: 150,
-		  nodeSpacing: 100,
-		  treeSpacing: 200,
+		  nodeSpacing: 1000,
+		  treeSpacing: 500,
 		  blockShifting: true,
 		  edgeMinimization: true,
 		  parentCentralization: true,
